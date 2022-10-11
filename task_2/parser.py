@@ -36,3 +36,4 @@ response = requests.get ("https://api.vk.com/method/wall.get",
 data = response.json()
 print(data)
 
+d
