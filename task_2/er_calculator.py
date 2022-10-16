@@ -23,7 +23,7 @@ def er_result():
     elif  er_type == "ERR" or "err":
         print(f"{er_per_reach():.1%}")
     else:
-        print('Ошибка')
+        print('error')
 
 def main():
     er_result()
